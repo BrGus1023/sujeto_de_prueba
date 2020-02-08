@@ -1,0 +1,114 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.header{
+    height: 70vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.header img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.perfil{
+    padding: .5em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+}
+.perfil h1{
+    color: #ffffff ;
+}
+.perfil img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.Contacto{
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Contacto a{
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: .5em;
+    background-color: mediumslateblue;
+}
+.Contacto a:hover{
+    background: paleturquoise;
+    color: green;
+}
+section{
+    padding: 1em 4em 1em 4em;
+}
+section h2{
+    padding: .5e;
+    font-size: 30px;
+    text-align: left;
+    color: lightseagreen;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    50%{ background-color: rgb(5, 97, 85);}
+}
+.article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.article img{
+    width: 25%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.article .info-article{
+    width: 70%;
+    padding: 2em;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.article .info-article h3{
+    width: 50px;
+}
+.article .info-article p{
+    text-align: justify;
+    font-style: italic;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+.article .info-article a{
+    font-style: italic;
+    padding: .5em;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    color: mediumblue;
+    background-color: mediumturquoise;
+    font-weight: bold;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 2px;
+    background-color: black;
+    padding: 1em;
+}
